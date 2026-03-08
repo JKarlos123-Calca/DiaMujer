@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `Feliz día de la mujer maderista 💜\n\nQue tengan un gran día!!`;  } else {
+    text = `Feliz Día de la Mujer 💜 maderistas\n\nQue tengan un gran día!!`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
