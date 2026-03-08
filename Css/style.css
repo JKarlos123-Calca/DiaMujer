@@ -194,3 +194,14 @@ body {
     font-size: 1.3rem;
   }
 }
+.jk-signature{
+  position: fixed;
+  bottom: 8px;
+  right: 12px;
+  font-size: 11px;
+  font-family: Arial, sans-serif;
+  color: #888;
+  opacity: 0.35;
+  letter-spacing: 1px;
+  z-index: 1;
+}
